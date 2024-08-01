@@ -1,92 +1,182 @@
-body{
-    margin:0;
+*{
+    margin: 0;
     padding: 0;
-    background-color:#151bcb;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.main{
+
+.container{
     width: 100%;
-    height: 80px;
+    background-color: aliceblue;
     display: flex;
     justify-content: space-around;
+    align-items:center;
+    padding: 10px;
 }
-.main h2{
+.container a{
+    text-decoration: none;
+    color: #000;
+}
+.container .select{
+    background-color: #000;
     color: white;
+    padding: 10px;
+    border-radius: 10px;
 }
-.left{
+
+.first-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.first-container .box1{
+    width: 35vh;
+    height: 10vw;
+    background-color: #f6e58d;
+}
+.btn{
+    font-size: 36px;
+    background-color:transparent;
+    border-color: white;
+    color: white;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-self: center;
+    
+}
+.btn:hover{
+    display: none;
+display: block;
+}
+.color{
+    display: flex;
+    flex-direction: column;
+    align-self:flex-end;
+    color: white
+}
+
+.first-container .box2{
+    background-color:#ffbe76;
+    width: 41vh;
+    height: 10vw;
+}
+.first-container .box3{
+    background-color:#ff7979;
+    width: 41vh;
+    height: 10vw;
+}
+.first-container .box4{
+    background-color:#badc58;
+    width: 41vh;
+    height: 10vw;
+}
+.first-container .box5{
+    background-color:#dff9fb;
+    width: 41vh;
+    height: 10vw;
+}
+.second-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.second-container .box6{
+    width: 35vh;
+    height: 10vw;
+    background-color: #f9ca24;
+}
+
+.second-container .box7{
+    background-color:#f0932b;
+    width: 41vh;
+    height: 10vw;
+}
+.second-container .box8{
+    background-color:#eb4d4b;
+    width: 41vh;
+    height: 10vw;
+}
+.second-container .box9{
+    background-color:#6ab04c;
+    width: 41vh;
+    height: 10vw;
+}
+.second-container .box10{
+    background-color:#c7ecee;
+    width: 41vh;
+    height: 10vw;
+}
+.third-container{
+    width: 100%;
+    height: auto;
     display: flex;
     align-items: center;
 }
-.right ul{
-    list-style: none;
-}
-.right li{
-    display: inline;
-    justify-items: end;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 22px;
-}
-.container{
-    padding-top: 5%;
-    height: 50vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 60px;
-    cursor: pointer;
-}
-.container img{
-    width: 45vh;
-}
-.box1{
-    background-color: white;
-    padding: 0.5%;
-    border-radius: 10px;
-}
-.box1 a{
-    text-decoration: none;
-}
-.box2{
-    background-color: white;
-    padding: 0.5%;
-    border-radius: 10px;
-}
-.box2 a{
-    text-decoration: none;
-}
-.box3{
-    background-color: white;
-    padding: 0.5%;
-    border-radius: 10px;
-}
-.box3 a{
-    text-decoration: none;
+.third-container .box11{
+    width: 35vh;
+    height: 10vw;
+    background-color: #7ed6df;
 }
 
-.box4{
-    background-color: white;
-    padding: 0.5%;
-    border-radius: 10px;
+.third-container .box12{
+    background-color:#e056fd;
+    width: 41vh;
+    height: 10vw;
 }
-.box4 a{
-    text-decoration: none;
+.third-container .box13{
+    background-color:#ff7979;
+    width: 41vh;
+    height: 10vw;
 }
-.box5{
-    background-color: white;
-    padding: 0.5%;
-    border-radius: 10px;
+.third-container .box14{
+    background-color:#686de0;
+    width: 41vh;
+    height: 10vw;
 }
-.box5 a{
-    text-decoration: none;
+.third-container .box15{
+    background-color:#30336b;
+    width: 41vh;
+    height: 10vw;
 }
-.box6{
-    background-color: white;
-    padding: 0.5%;
-    border-radius: 10px;
+.forth-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    overflow: auto;
 }
-.box6 a{
-    text-decoration: none;
+.forth-container .box16{
+    width: 35vh;
+    height: 10vw;
+    background-color: #22a6b3;
 }
+
+.forth-container .box17{
+    background-color:#be2edd;
+    width: 41vh;
+    height: 10vw;
+}
+.forth-container .box18{
+    background-color:#4834d4;
+    width: 41vh;
+    height: 10vw;
+}
+.forth-container .box19{
+    background-color:#130f40;
+    width: 41vh;
+    height: 10vw;
+}
+.forth-container .box20{
+    background-color:#535c68;
+    width: 41vh;
+    height: 10vw;
+}
+/* .second-container{
+    position: fixed;
+    width: calc(100vw - 48px);
+    height: 100%;
+    font-weight: 600;
+    overflow: hidden;
+} */
